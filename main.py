@@ -67,7 +67,7 @@ if operation:
 	passElem = browser.find_element_by_id("pass")
 	passElem.send_keys(userPass)
 	passElem.send_keys(Keys.RETURN)
-	userTargetUrl = "http://www.facebook.com/messages/" + userTarget
+	userTargetUrl = "http://www.facebook.com/messages/t/" + userTarget
 	browser.get(userTargetUrl)
 	textAreaElem = browser.find_element_by_css_selector("div textarea.uiTextareaNoResize")
 	for i in range(userQuantity):
