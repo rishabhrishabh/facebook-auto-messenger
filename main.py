@@ -1,4 +1,5 @@
 from selenium import webdriver
+import pyautogui
 from selenium.webdriver.common.keys import Keys
 import sched, time, timeit
 import random
