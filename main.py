@@ -73,6 +73,6 @@ if operation:
 	for i in range(userQuantity):
 		print ("Sending message " + str(i + 1) + " of " + str(userQuantity) + "...")
 		thisMessage = random.choice(userMessages)
-		pyautogui.typewrite(thisMessage)
+		pg.typewrite(thisMessage)
 		time.sleep(userTimeInterval)
 	print ("Operation successful.")
